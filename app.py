@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.multiclass import OneVsRestClassifier
